@@ -1,0 +1,11 @@
+{
+  "name": "polymerGDG",
+  "version": "0.0.0",
+  "authors": [
+    "Steve Waweru <steviewez@gmail.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.5.1"
+  }
+}

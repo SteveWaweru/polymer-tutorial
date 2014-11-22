@@ -1,0 +1,13 @@
+<link rel="import" href="../bower_components/webcomponentsjs/webcomponents.min.js">
+<polymer-element name="color-element" attributes="name color">
+    <template>
+        <p>My name is <b>{{name}}</b>. I like colour <b><span style="color: {{color}}">{{color}}</span></b>
+        </p>
+    </template>
+    <script>
+        Polymer({
+            name: "Steve",
+            color: "blue"
+        });
+    </script>
+</polymer-element>

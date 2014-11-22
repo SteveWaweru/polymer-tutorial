@@ -1,0 +1,22 @@
+<link rel="import" href="../bower_components/webcomponentsjs/webcomponents.min.js">
+<polymer-element name="age-slider">
+    <style>
+
+    </style>
+    <template>
+        <p>
+            My name is <b>{{name}}</b>. Color is <b>{{color}}</b>
+            and of Age: {{age}}.
+        </p>
+        <p>
+            <input type="range" value="{{age}}">
+        </p>
+    </template>
+    <script>
+        Polymer({
+            name:"Josephine",
+            color: "blue",
+            age: 20
+        });
+    </script>
+</polymer-element>
